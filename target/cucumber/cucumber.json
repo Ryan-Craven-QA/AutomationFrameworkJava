@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-16T04:01:14.595Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1341841300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestPageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Navigate to URL",
+        "description": "",
+        "id": "navigating-to-url;navigate-to-url",
+        "after": [
+          {
+            "result": {
+              "duration": 35155100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestPageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2881980300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2002542200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "TestPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User navigates to URL",
+            "match": {
+              "location": "TestPageSteps.aUserNavigatesToURL()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test_page"
+          }
+        ]
+      }
+    ],
+    "name": "Navigating to URL",
+    "description": "",
+    "id": "navigating-to-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Test/NavigateToURL.feature",
+    "tags": []
+  }
+]
